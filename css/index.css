@@ -1,0 +1,105 @@
+body {
+  font-family: 'Palatino', 'Garamond', serif;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+#back {
+  background-image: url("../images/connect.jpg");
+  height: 100%;
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.info {
+  text-align: center;
+}
+
+.wrapper {
+  margin: 50px auto 0;
+  width: 450px;
+}
+
+.board button {
+  width: 80%;
+  height: 80%;
+  border-radius: 80%;
+  border: 1px solid black;
+  background: lightgrey;
+}
+
+button.green {
+  background: #34ef02;
+  background: linear-gradient(to bottom, #50ff16 0%, ##34ef02 100%);
+}
+
+button.black {
+  background: #000;
+  background: linear-gradient(to bottom, #333 0%, #000000 100%);
+}
+
+.player {
+  text-transform: capitalize;
+}
+
+.info .green {
+  color: green;
+}
+
+.info .black {
+  color: black;
+}
+
+.play-again {
+  display: none;
+  display: none;
+}
+
+.play-again {
+  display: inline-block;
+  margin-bottom: 2em;
+  height: 40px;
+  line-height: 40px;
+  width: 50%;
+  background: mediumseagreen;
+  color: white;
+  text-decoration: none;
+  font-family: helvetica;
+  opacity: 0.9;
+}
+
+.play-again:hover {
+  opacity: 1;
+}
+
+.wrapper {
+  margin: 20px auto 0;
+  width: 240px;
+}
+
+.board button {
+  width: 30px;
+  height: 30px;
+}
+.hme {
+   /* display: block; */
+   width: 80px;
+   height: 15px;
+   background: #4E9CAF;
+   padding: 10px;
+   /* text-align: left; */
+   border-radius: 5px;
+   color: white;
+   font-weight: bold;
+   text-decoration: none;
+}

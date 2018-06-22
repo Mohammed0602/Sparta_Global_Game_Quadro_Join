@@ -1,0 +1,38 @@
+#container{
+   background-image: url("../images/connect.jpg");
+   height: 100%;
+   /* Full height */
+   height: 100%;
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ body, html {
+     height: 100%;
+     margin: 0;
+ }
+ .button {
+
+    width: 115px;
+    height: 35px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+.btn btn-primary {
+  font-size: 35px;
+}
+.men {
+  text-align: center;
+  font-size: 50px;
+}
+h4 {
+  font-size: 100px;
+  font-family: sans-serif;
+}
